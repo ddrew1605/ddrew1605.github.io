@@ -1,36 +1,47 @@
 body{
     background-color: lightpink;
-}
+    }
+    
+    header {
+        text-align: center;
+        font-family:fantasy;
+        font-size: xx-large;
+        color: goldenrod;
+    }
 
-header, footer {
-    text-align: center;
-}
-
-h1 { 
-    font-family: fantasy;
-    font-size: x-large;
-    color: coral;
-}   
-
-
-h2 {
-    font-family: fantasy;
-    font-size: larger;
-    color: coral;
-}
-
-h3 {
-    font-family: monospace;
-    font-size: large;
-    color: coral;
-}
-
-p {
-    font-family: Arial;
-    font-size: medium;
-    color: coral;
-}
-
-figure {
-    text-align: center;
-}
+    footer {
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: small;
+        color: goldenrod;
+    }
+    
+    h1 { 
+        font-family: fantasy;
+        font-size: x-large;
+        color: coral;
+    }   
+    
+    
+    h2 {
+        font-family: fantasy;
+        font-size: larger;
+        color: coral;
+    }
+    
+    h3 {
+        font-family: monospace;
+        font-size: large;
+        color: coral;
+    }
+    
+    p, ul {
+        font-family: Arial;
+        font-size: medium;
+        color: teal;
+    }
+    
+    figure {
+        text-align: center;
+    }
