@@ -1,0 +1,36 @@
+<style>
+    body{
+        background-color: pink;
+    }
+
+    h1 {
+        font-family: fantasy;
+        font-size: xx-large;
+        color: teal;
+    }
+
+    h2 {
+        font-family: fantasy;
+        font-size: x-large;
+        color: teal;
+    }
+
+    h3 {
+        font-family: monospace;
+        font-size: large;
+        color: teal;
+    }
+
+    p {
+        font-family: Arial;
+        font-size: medium;
+        color: teal;
+    }
+	
+	li {
+		font-family: Arial;
+        font-size: medium;
+        color: teal;
+	}
+
+</style>
