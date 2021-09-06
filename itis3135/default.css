@@ -1,0 +1,36 @@
+body{
+    background-color: lightpink;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1 { 
+    font-family: fantasy;
+    font-size: x-large;
+    color: coral;
+}   
+
+
+h2 {
+    font-family: fantasy;
+    font-size: larger;
+    color: coral;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: large;
+    color: coral;
+}
+
+p {
+    font-family: Arial;
+    font-size: medium;
+    color: coral;
+}
+
+figure {
+    text-align: center;
+}
