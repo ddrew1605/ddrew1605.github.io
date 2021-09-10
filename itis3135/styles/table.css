@@ -1,0 +1,39 @@
+body
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+thead
+{
+	background-color: crimson;
+}
+
+th, td
+{
+	border: 1px solid lightslategray;
+	padding: .5em 4em .5em .8em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: aquamarine;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: aqua;
+}
