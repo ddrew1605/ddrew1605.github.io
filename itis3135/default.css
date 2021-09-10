@@ -1,5 +1,11 @@
-body{
+body {
     background-color: lightpink;
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
+    text-align: center;
 }
 
 header, footer {
