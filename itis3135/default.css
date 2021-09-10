@@ -6,7 +6,8 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     color: goldenrod;
     text-align: center;
-    font-size: medium
+    font-size: medium;
+    margin: 60px;
 }
 
 header, footer {
