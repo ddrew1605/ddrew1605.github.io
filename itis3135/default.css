@@ -6,7 +6,7 @@ header, footer {
     text-align: center;
 }
 
-li {
+ol {
     font-family: fantasy;
     font-size: medium;
     color: teal;
