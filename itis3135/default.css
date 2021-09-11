@@ -7,7 +7,6 @@ nav {
     color: goldenrod;
     text-align: center;
     font-size: medium;
-    margin: 610px;
 }
 
 header, footer {
@@ -39,6 +38,12 @@ h3 {
     color: coral;
 }
 
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: seagreen;
+    font-size: larger;
+}
+
 p {
     font-family: Arial;
     font-size: medium;
@@ -49,3 +54,7 @@ figure {
     text-align: center;
 } 
 
+button {
+    background-color: darkcyan;
+    color: lightskyblue;
+}

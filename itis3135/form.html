@@ -17,24 +17,66 @@
     <h2>Forms</h2>
 </header>
 
-<h3>
+<h2>
     <nav>
         <a href="introduction.html">Introduction</a> | <a href="tables.html">HTML Table</a> | 
         <a href="">HTML Forms</a>
     </nav>
-</h3>
+</h2>
 
 <body>
     <main>
-        <input type="text" placeholder="cat photo URL" required>
-        <input type="text" placeholder="cat photo URL" required>
-        <input type="text" placeholder="cat photo URL" required>
-        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
-        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
-        <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
-        <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
-        <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
-        <button type="submit">Submit</button>
+        <p>Our buisness letters our one of our favorite parts of the company here at Drew Co. They have any of your 
+            reading needs, whether it be straight statistics or corporate retreat highlights. We at Drew Co. Want to make
+            sure that you the reader enjoy every last second you have with your eye on our pages. There are three options you can
+            choose from, all the same price.
+        </p>
+
+        <h3>Casual</h3>
+        <p>Not big on numbers? Looking for a good, corporate read? Casual has all your needs. We look at birthdays, events,
+            and everything that happens in the work place that is not work. It is your classic class clown read, and there even
+            is a joke section so you can get your laugh on!
+        </p>
+
+        <h3>Buisness Casual</h3>
+        <p>The Buisness Casual option brings you the buisness without the headache. It gives you the recent update on how company
+            projects are going as well as trends the company takes, starting from hourly and going all the way to annually. This 
+            newsletter keeps you in the loop with everything new, as well as important upcoming events, such as meetings or
+            guest speakers. 
+        </p>
+
+        <h3>Formal</h3>
+        <p>This newsletter is not for the weak, but for those who wake up and mean nothing but business. Every statistic that you
+            can think involving Drew Co. is in this newsletter. Along with these statistic, our company's analyst have put in
+            there word to tell you the reader what they believe these trends will lead to. In doing this, we have multiple analyst
+            cover each statistic to bring multiple viewpoints to the table.
+        </p>
+
+        <form action="#">
+            <h3>Please enter the following information:</h3>
+            <input type="text" placeholder="Name" size="45" required><br>
+            <input type="email" placeholder="Email" size="45" required><br>
+            <input type="text" placeholder="Phone Number" size="45" required><br>
+            <br>
+
+            <h3>Please select a payment plan:</h3>
+            <label for="Weekly"><input id="Weekly" type="radio" name="payment-plan" value="Weekly"> Weekly ($15.25)</label><br>
+            <label for="Monthly"><input id="Monthly" type="radio" name="payment-plan" value="Monthly"> Monthly ($50.00)</label><br>
+            <label for="Anually"><input id="Anually" type="radio" name="payment-plan" value="Anually" required> Outdoor ($500.00) *BEST DEAL
+            </label><br>
+            <br>
+
+            <h3>Please select what kind of newsletter you'd like to purchase</h3>
+            <label for="Casual"><input id="Casual" type="checkbox" name="newsletter-type" value="Casual"> 
+                Casual</label><br>
+            <label for="Buisness Casual"><input id="Buisness Casual" type="checkbox" name="newsletter-type" value="Buisness Casual">
+                 Buisness Casual</label><br>
+            <label for="Formal"><input id="Formal" type="checkbox" name="newsletter-type" value="Formal" required> 
+                Formal</label><br>
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
     </main>
 
     <footer> <a href="#"> Contact Information </a> | <a href="https://github.com/ddrew1605"> GitHub </a> | 
