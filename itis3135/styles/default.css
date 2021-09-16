@@ -18,14 +18,14 @@ body{
     
     h1 { 
         font-family: fantasy;
-        font-size: x-large;
+        font-size: larger;
         color: coral;
     }   
     
     
     h2 {
         font-family: fantasy;
-        font-size: larger;
+        font-size: x-large;
         color: coral;
     }
     
