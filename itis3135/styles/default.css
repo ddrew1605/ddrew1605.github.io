@@ -4,17 +4,16 @@ body{
     
     header {
         text-align: center;
-        font-family:fantasy;
+        font-family: fantasy;
         font-size: xx-large;
-        color: goldenrod;
+        color: coral;
     }
 
     footer {
         text-align: center;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
-        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: fantasy;
         font-size: small;
-        color: goldenrod;
+        color: teal;
     }
     
     h1 { 
