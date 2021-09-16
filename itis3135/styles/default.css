@@ -1,46 +1,53 @@
 body{
     background-color: lightpink;
-    }
+}
     
-    header {
-        text-align: center;
-        font-family: fantasy;
-        font-size: xx-large;
-        color: coral;
-    }
+header {
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: coral;
+}
 
-    footer {
-        text-align: center;
-        font-family: fantasy;
-        font-size: small;
-        color: teal;
-    }
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+    color: teal;
+}
     
-    h1 { 
-        font-family: fantasy;
-        font-size: larger;
-        color: coral;
-    }   
+h1 { 
+    font-family: fantasy;
+    font-size: larger;
+    color: coral;
+}   
     
     
-    h2 {
-        font-family: fantasy;
-        font-size: x-large;
-        color: coral;
-    }
+h2 {
+    font-family: fantasy;
+    font-size: x-large;
+    color: coral;
+}
     
-    h3 {
-        font-family: monospace;
-        font-size: large;
-        color: coral;
-    }
+h3 {
+    font-family: monospace;
+    font-size: large;
+    color: coral;
+}
     
-    p, ul {
-        font-family: Arial;
-        font-size: medium;
-        color: teal;
-    }
+p, ul {
+    font-family: Arial;
+    font-size: medium;
+    color: teal;
+}
     
-    figure {
-        text-align: center;
-    }
+figure {
+    text-align: center;
+}
+
+nav {
+    font-family: Arial;
+    font-size: large;
+    color: coral;
+    text-align: center;
+}
