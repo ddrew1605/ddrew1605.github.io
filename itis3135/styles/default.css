@@ -1,5 +1,9 @@
 body{
     background-color: lightpink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
     
 header {
@@ -35,7 +39,7 @@ h3 {
     color: coral;
 }
     
-p, ul {
+p, ul{
     font-family: Arial;
     font-size: medium;
     color: teal;
@@ -50,4 +54,8 @@ nav {
     font-size: large;
     color: coral;
     text-align: center;
+}
+
+a {
+    color: darkolivegreen;
 }
