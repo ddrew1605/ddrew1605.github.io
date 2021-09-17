@@ -7,7 +7,7 @@ body
 table
 {
 	border-collapse: collapse;
-	margin: 20px;
+	margin: auto;
 }
 
 thead, tfoot
