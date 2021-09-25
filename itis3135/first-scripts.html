@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<header>
+
+    <meta charset="UTF-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <script src="scripts/alert.js"></script>
+
+    <h1>Derek Drew >> ITIS3135
+        <nav>
+            <a href="introduction.html">Introduction</a> | <a href="tables.html">HTML Table</a> | 
+            <a href="form.html">HTML Forms</a> | <a href="website_evaluations.html">Website Evaluations</a> 
+            |<a href="brand-adjective-animal.html">Brand Page</a>
+        <nav>
+    </h1>
+
+</header>
+
+
+<body>
+      <main>
+          <script>  
+              var userName = askName();
+              var userMood = askMood();
+              var companyName = "The Dashing Lovable Dalmation Company";
+
+              document.write("<h3>Today is " + todaysDate() + ", and the time is: " + currentTime() + "." + "</h3>");
+              document.write("<h3>" + companyName +" welcomes you, " + userName + "!" + "</h3>");
+              document.write("<h3>We are glad you are doing " + userMood + "!</h3>")
+          </script>
+
+          <button type="button" onclick="doNotPress()">DO NO PRESS THIS BUTTON</button>
+          <button type="button" onclick="quickMath()">Quick Maths!</button>
+          <button type="button" onclick="mathPractice()">Math Test</button>
+          <button type="button" onclick="dogYears()">Dog-O-Nator</button>
+          <button type="button" onclick="salaryCheck()">How Much Would You Make??</button>
+      </main>
+</body>
+
+<footer> 
+    <a href="#"> Contact Information </a> | <a href="https://github.com/ddrew1605"> GitHub </a> | 
+    <a href="https://www.linkedin.com/in/derek-drew-49er/">LinkedIn</a></footer>
+<footer> Designed by Dashing Lovable Dalmation, Co. </footer>
+
+</html>
