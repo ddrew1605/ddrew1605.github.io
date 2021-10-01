@@ -1,4 +1,5 @@
-body{
+body
+{
     background-color: lightpink;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -6,56 +7,75 @@ body{
     margin-right: 50px;
 }
     
-header {
+header 
+{
     text-align: center;
     font-family: fantasy;
     font-size: xx-large;
     color: coral;
 }
 
-footer {
+footer 
+{
     text-align: center;
     font-family: Arial;
     font-size: small;
     color: teal;
 }
     
-h1 { 
+h1 
+{ 
     font-family: fantasy;
     font-size: larger;
     color: coral;
 }   
     
     
-h2 {
+h2 
+{
     font-family: fantasy;
     font-size: x-large;
     color: coral;
 }
     
-h3 {
+h3 
+{
     font-family: monospace;
     font-size: large;
     color: coral;
 }
     
-p, ul{
+p, ul
+{
     font-family: Arial;
     font-size: medium;
     color: teal;
 }
     
-figure {
+figure 
+{
     text-align: center;
 }
 
-nav {
+nav 
+{
     font-family: Arial;
     font-size: large;
     color: coral;
     text-align: center;
 }
 
-a {
+a 
+{
     color: darkolivegreen;
+}
+
+button 
+{
+    background-color: aquamarine;
+    color: rgba(31, 111, 187, 0.842);
+    height: 100px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
 }
