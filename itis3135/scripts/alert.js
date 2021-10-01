@@ -131,5 +131,75 @@ function salaryCheck()
 
     var salary = hours * days * 25.50;
     alert("If you worked with us, you would make around $" + salary + 
-            " for a normal work week, so what are you waiting for?!?!")
+            " for a normal work week, so what are you waiting for?!?!");
+}
+
+function getShape(numSides)
+{
+    if (numSides == 1)
+    {
+        alert("Your polygon is called a henagon because it has 1 side.");
+    } else if (numSides == 2)
+    {
+        alert("Your polygon is called a digon because it has 2 sides.");
+    } else if (numSides == 3)
+    {
+        alert("Your polygon is called a trigon because it has 3 sides.");
+    } else if (numSides == 4)
+    {
+        alert("Your polygon is called a tetragon because it has 4 sides.");
+    } else if (numSides == 5)
+    {
+        alert("Your polygon is called a pentagon  because it has 5 sides.");
+    } else if (numSides == 6)
+    {
+        alert("Your polygon is called a hexagon because it has 6 sides.");
+    } else if (numSides == 7)
+    {
+        alert("Your polygon is called a heptagon because it has 7 sides.");
+    } else if (numSides == 8)
+    {
+        alert("Your polygon is called a octagon because it has 8 sides.");
+    } else if (numSides == 9)
+    {
+        alert("Your polygon is called a enneagon because it has 9 sides.");
+    } else if (numSides == 10)
+    {
+        alert("Your polygon is called a decagon because it has 10 sides.");
+    } else if (numSides == 11)
+    {
+        alert("Your polygon is called a hendecagon  because it has 11 sides.");
+    } else if (numSides == 12)
+    {
+        alert("Your polygon is called a dodecagon because it has 12 sides.");
+    } else if (numSides == 13)
+    {
+        alert("Your polygon is called a triskaidecagon because it has 13 sides.");
+    } else if (numSides == 14)
+    {
+        alert("Your polygon is called a tetrakaidecagon because it has 14 sides.");
+    } else if (numSides == 15)
+    {
+        alert("Your polygon is called a pentakaidecagon because it has 15 sides.");
+    } else if (numSides == 16)
+    {
+        alert("Your polygon is called a hexakaidecagon because it has 16 sides.");
+    }
+    
+}
+
+function validateEntry(entry)
+{
+    if (entry >= 0.5 && entry <= 16.4 ||
+        entry <= -0.5 && entry >= -16.4) 
+    {
+    var newEntry = Math.abs(parseFloat(entry));
+    var newEntry = Math.round(newEntry);
+    return entry;
+
+    } else 
+    {
+        var retry = prompt(entry + " is an invalid entry, try again!");
+        validateEntry(retry);   
+    }
 }
